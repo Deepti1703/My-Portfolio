@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Deepti M — AI & Machine Learning Engineer specializing in Computer Vision, Deep Learning, and Full-Stack Web Development. Based in Bengaluru, India.">
+  <meta name="keywords"
+    content="AI Engineer, Machine Learning, Deep Learning, Computer Vision, Python, TensorFlow, React.js, Bengaluru">
+  <meta name="author" content="Deepti M">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Deepti M | AI & ML Engineer Portfolio">
+  <meta property="og:description"
+    content="Artificial Intelligence and Machine Learning Engineer with expertise in Computer Vision, Deep Learning, and Full-Stack Development.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/profile.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#DC2626">
+  <title>Deepti M | AI & ML Engineer</title>
+  <link rel="icon" type="image/png" href="assets/profile.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    (function () { try { var t = localStorage.getItem('deepti-portfolio-theme'); if (!t) t = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light'; document.documentElement.setAttribute('data-theme', t) } catch (e) { document.documentElement.setAttribute('data-theme', 'light') } })();
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Deepti M",
+    "jobTitle": "AI & Machine Learning Engineer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bengaluru",
+      "addressCountry": "IN"
+    },
+    "telephone": "+91-8762400461",
+    "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Deep Learning", "Computer Vision", "Python", "TensorFlow", "React.js"]
+  }
+  </script>
+</head>
+
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Floating AI Background -->
+  <div class="ai-bg" aria-hidden="true">
+    <span class="ai-node"></span>
+    <span class="ai-node"></span>
+    <span class="ai-node"></span>
+    <span class="ai-node"></span>
+    <span class="ai-node"></span>
+    <span class="ai-line"></span>
+    <span class="ai-line"></span>
+    <span class="ai-line"></span>
+  </div>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="nav-logo" aria-label="Deepti M Home">
+        <span class="logo-accent">D</span>eepti<span class="logo-dot">.</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="5" />
+          <line x1="12" y1="1" x2="12" y2="3" />
+          <line x1="12" y1="21" x2="12" y2="23" />
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+          <line x1="1" y1="12" x2="3" y2="12" />
+          <line x1="21" y1="12" x2="23" y2="12" />
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </svg>
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content fade-up">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">Deepti M</h1>
+          <h2 class="hero-title">
+            <span class="typing-text" id="typingText" aria-live="polite"></span>
+            <span class="typing-cursor" aria-hidden="true">|</span>
+          </h2>
+          <p class="hero-desc">
+            Artificial Intelligence and Machine Learning Engineer passionate about building scalable AI-powered
+            applications and solving real-world problems with Deep Learning and Computer Vision.
+          </p>
+          <div class="hero-actions">
+
+            <a href="#projects" class="btn btn-primary">
+              View My Work
+            </a>
+
+            <a href="/assets/Deepti_M.pdf" target="_blank" class="btn btn-outline">
+              View My Resume
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+              Get In Touch
+            </a>
+
+          </div>
+          <div class="hero-social">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 4.126 0 2.062 2.062 0 0 1-2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+            <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" aria-label="LeetCode profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.824.662l2.697 2.606c.466.467.702 1.15.702 1.863s-.235 1.357-.702 1.824zM12 0L1.608 18.112h4.824v5.888h10.136V18.112h4.824L12 0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image fade-up delay-1">
+          <div class="hero-image-wrapper">
+            <img src="assets/profile.png" alt="Deepti M — AI & Machine Learning Engineer" width="420" height="520"
+              loading="eager">
+            <div class="hero-image-ring"></div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Professional Summary</h2>
+        </div>
+        <div class="about-grid">
+          <div class="card about-card fade-up">
+            <p>
+              Artificial Intelligence and Machine Learning Engineer with hands-on experience in
+              <strong>Computer Vision</strong>, <strong>Deep Learning</strong>, and
+              <strong>Full-Stack Web Development</strong>. Proficient in
+              <strong>Python</strong>, <strong>Java</strong>, <strong>TensorFlow</strong>,
+              <strong>OpenCV</strong>, <strong>Spring Boot</strong>, and
+              <strong>React.js</strong>, with experience designing and developing AI-powered
+              applications, computer vision solutions, and responsive web applications.
+            </p>
+
+            <p>
+              Experienced in building end-to-end software solutions by integrating
+              <strong>Machine Learning models</strong>, <strong>REST APIs</strong>, and
+              modern web technologies. Strong foundation in
+              <strong>Data Structures & Algorithms</strong>, <strong>Object-Oriented Programming</strong>,
+              and software development best practices, with a focus on writing clean,
+              scalable, and maintainable code.
+            </p>
+
+            <p>
+              Committed to leveraging Artificial Intelligence to solve real-world problems
+              through innovative, data-driven solutions while continuously learning emerging
+              technologies and enhancing technical expertise. Currently based in
+              <strong>Bengaluru, India</strong>, and actively seeking opportunities to
+              contribute to impactful AI and software engineering projects.
+            </p>
+          </div>
+          <div class="about-info fade-up delay-1">
+            <div class="info-item">
+              <span class="info-label">Location</span>
+              <span class="info-value">Bengaluru, India</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Phone</span>
+              <a href="tel:+918762400461" class="info-value">+91 87624 00461</a>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Degree</span>
+              <span class="info-value">B.Tech AI & ML</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">CGPA</span>
+              <span class="info-value">9.1 / 10</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Status</span>
+              <span class="info-value status-badge">Open to Opportunities</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Career</span>
+          <h2 class="section-title">Experience & Training</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item fade-up">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3>Web Development Intern</h3>
+                  <p class="timeline-company">Solar Bee</p>
+                </div>
+                <span class="timeline-date">Jun 2026 – Present</span>
+              </div>
+              <p class="timeline-location">Bengaluru, India</p>
+              <ul>
+                <li>Developed responsive web applications using HTML, CSS, JavaScript, and React.js with cross-browser
+                  compatibility and mobile responsiveness.</li>
+                <li>Built dynamic user interfaces, integrated REST APIs, and optimized application performance across
+                  multiple web modules.</li>
+                <li>Collaborated using Git/GitHub for version control, debugging, testing, code reviews, and
+                  implementing new features.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item fade-up">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3>Java Full Stack Trainee</h3>
+                  <p class="timeline-company">KodNest</p>
+                </div>
+                <span class="timeline-date">Feb 2026 – May 2026</span>
+              </div>
+              <p class="timeline-location">Bengaluru, India</p>
+              <ul>
+                <li>Completed hands-on training in Core Java, Advanced Java, OOP, Collections, Exception Handling,
+                  Multithreading, JDBC, and SQL.</li>
+                <li>Developed full-stack web applications using HTML, CSS, JavaScript, React.js, Node.js, and MySQL.
+                </li>
+                <li>Strengthened Data Structures and Algorithms through intensive coding practice.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item fade-up">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3>UI/UX & Front-End Development Trainee</h3>
+                  <p class="timeline-company">ICT Academy with Infosys</p>
+                </div>
+                <span class="timeline-date">Aug 2025 – Sept 2025</span>
+              </div>
+              <p class="timeline-location">Kalaburagi, India</p>
+              <ul>
+                <li>Completed hands-on training in UI/UX Design, HTML, CSS, JavaScript, and React.js for responsive web
+                  applications.</li>
+                <li>Designed intuitive user interfaces and converted UI/UX designs into functional web pages.</li>
+                <li>Enhanced debugging, teamwork, and problem-solving skills through practical projects.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="card project-card fade-up">
+            <div class="project-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+            </div>
+            <h3>Weapon Recognition from Wound Patterns</h3>
+            <p class="project-subtitle">Forensic Perspective · CNN Ensemble</p>
+            <p>Developed a CNN-based ensemble learning model to identify weapons from wound pattern images for forensic
+              and medico-legal investigations.</p>
+            <ul class="project-tags">
+              <li>TensorFlow</li>
+              <li>CNN</li>
+              <li>OpenCV</li>
+              <li>Python</li>
+            </ul>
+            <div class="project-metrics">
+              <span>Accuracy · Precision · Recall · F1-Score</span>
+            </div>
+          </article>
+
+          <article class="card project-card fade-up delay-1">
+            <div class="project-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+            </div>
+            <h3>Image Classification using Deep Learning</h3>
+            <p class="project-subtitle">Multi-class CNN Recognition</p>
+            <p>Built image classification models using VGG, ResNet, and EfficientNet architectures with data
+              augmentation and preprocessing pipelines.</p>
+            <ul class="project-tags">
+              <li>VGG</li>
+              <li>ResNet</li>
+              <li>EfficientNet</li>
+              <li>Deep Learning</li>
+            </ul>
+            <div class="project-metrics">
+              <span>Confusion Matrices · Model Comparison</span>
+            </div>
+          </article>
+
+          <article class="card project-card fade-up delay-2">
+            <div class="project-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                <path d="M2 17l10 5 10-5" />
+                <path d="M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <h3>Object Detection using ML</h3>
+            <p class="project-subtitle">Real-time Detection · YOLOv8</p>
+            <p>Implemented real-time object detection using YOLOv8 and SVM for accurate object localization and
+              recognition across diverse datasets.</p>
+            <ul class="project-tags">
+              <li>YOLOv8</li>
+              <li>SVM</li>
+              <li>Computer Vision</li>
+              <li>Python</li>
+            </ul>
+            <div class="project-metrics">
+              <span>IoU · mAP · Precision · Recall</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Expertise</span>
+          <h2 class="section-title">Technical Skills</h2>
+        </div>
+
+        <div class="skills-bars fade-up">
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span>Java & Spring Boot</span>
+              <span>92%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="92"></div>
+            </div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span>Python & AI/ML</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="90"></div>
+            </div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span>Data Structures & Algorithms</span>
+              <span>88%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="88"></div>
+            </div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span>React.js & Frontend</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="85"></div>
+            </div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span>Deep Learning & Computer Vision</span>
+              <span>84%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="84"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-grid fade-up">
+          <div class="card skill-category">
+            <h3>Languages</h3>
+            <div class="skill-tags">
+              <span>Java</span><span>Python</span><span>JavaScript</span><span>SQL</span>
+            </div>
+          </div>
+          <div class="card skill-category">
+            <h3>Frontend</h3>
+            <div class="skill-tags">
+              <span>React.js</span><span>HTML5</span><span>CSS3</span>
+            </div>
+          </div>
+          <div class="card skill-category">
+            <h3>Backend</h3>
+            <div class="skill-tags">
+              <span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>Spring Boot</span>
+            </div>
+          </div>
+          <div class="card skill-category">
+            <h3>AI/ML</h3>
+            <div class="skill-tags">
+              <span>TensorFlow</span><span>OpenCV</span><span>CNN</span><span>YOLOv8</span><span>Django</span>
+            </div>
+          </div>
+          <div class="card skill-category">
+            <h3>Databases</h3>
+            <div class="skill-tags">
+              <span>MySQL</span><span>MongoDB</span>
+            </div>
+          </div>
+          <div class="card skill-category">
+            <h3>Tools</h3>
+            <div class="skill-tags">
+              <span>Git</span><span>GitHub</span><span>VS Code</span><span>Postman</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="soft-skills fade-up">
+          <h3 class="soft-skills-title">Soft Skills</h3>
+          <div class="skill-tags centered">
+            <span>Problem Solving</span><span>Analytical
+              Thinking</span><span>Communication</span><span>Teamwork</span><span>Collaboration</span><span>Adaptability</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Background</span>
+          <h2 class="section-title">Education & Certifications</h2>
+        </div>
+
+        <div class="education-grid fade-up">
+          <article class="card edu-card">
+            <div class="edu-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+              </svg>
+            </div>
+            <h3>B.Tech in Artificial Intelligence & Machine Learning</h3>
+            <p class="edu-school">Godutai Engineering College for Women, Sharnbasva University</p>
+            <p class="edu-detail">CGPA: <strong>9.1</strong> · Kalaburagi, India</p>
+            <span class="edu-date">2022 – 2026</span>
+          </article>
+
+          <article class="card edu-card">
+            <div class="edu-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+              </svg>
+            </div>
+            <h3>Pre-University Course (PUC)</h3>
+            <p class="edu-school">Shree Guru Independent PU College</p>
+            <p class="edu-detail">Percentage: <strong>83%</strong> · Kalaburagi, India</p>
+            <span class="edu-date">2021</span>
+          </article>
+        </div>
+
+        <div class="certifications fade-up">
+          <h3 class="cert-title">Certifications & Achievements</h3>
+          <div class="cert-grid">
+            <div class="card cert-card">
+              <span class="cert-year">2026</span>
+              <p>Claude with Amazon Bedrock — Anthropic Certification</p>
+            </div>
+            <div class="card cert-card">
+              <span class="cert-year">2026</span>
+              <p>Claude with Google Vertex AI — Anthropic Certification</p>
+            </div>
+            <div class="card cert-card">
+              <span class="cert-year">2026</span>
+              <p>AI Fluency: Framework & Foundations — Anthropic Certification</p>
+            </div>
+            <div class="card cert-card">
+              <span class="cert-year">2025</span>
+              <p>Poster Presentation — 2nd Runner Up at IBM ICE Day for Chatbot topic</p>
+            </div>
+            <div class="card cert-card">
+              <span class="cert-year">2024</span>
+              <p>Hackathon — #EnlightenCode:2024 Language Translation Problem Statement</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates -->
+    <section class="section section-alt" id="certificates">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Achievements</span>
+          <h2 class="section-title">Certificates</h2>
+        </div>
+
+        <div class="certificates-grid fade-up">
+          <!-- Card 1: Claude with Amazon Bedrock -->
+          <article class="card cert-gallery-card">
+            <div class="cert-image-container">
+              <img src="assets/certificates/claude_bedrock.jpg" alt="Claude with Amazon Bedrock" class="cert-image"
+                onerror="handleCertImageError(this, 'Claude with Amazon Bedrock', 'Anthropic')">
+              <div class="cert-overlay">
+                <button class="btn btn-cert-view"
+                  onclick="openLightbox('assets/certificates/claude_bedrock.pdf', 'assets/certificates/claude_bedrock.pdf', 'Claude with Amazon Bedrock', 'Anthropic', 'May 3, 2026')">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                    <circle cx="12" cy="12" r="3" />
+                  </svg>
+                  Enlarge
+                </button>
+              </div>
+            </div>
+            <div class="cert-content">
+              <h3>Claude with Amazon Bedrock</h3>
+              <p class="cert-issuer">Anthropic</p>
+              <div class="cert-footer">
+                <span class="cert-date">May 3, 2026</span>
+                <a href="assets/certificates/claude_bedrock.pdf" class="btn-cert-download"
+                  download="Claude_with_Amazon_Bedrock_Deepti_Metri.pdf" title="Download Certificate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Claude with Google Vertex AI -->
+          <article class="card cert-gallery-card">
+            <div class="cert-image-container">
+              <img src="assets/certificates/claude_vertex.jpg" alt="Claude with Google Vertex AI" class="cert-image"
+                onerror="handleCertImageError(this, 'Claude with Google Vertex AI', 'Anthropic')">
+              <div class="cert-overlay">
+                <button class="btn btn-cert-view"
+                  onclick="openLightbox('assets/certificates/claude_vertex.pdf', 'assets/certificates/claude_vertex.pdf', 'Claude with Google Vertex AI', 'Anthropic', 'May 3, 2026')">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                    <circle cx="12" cy="12" r="3" />
+                  </svg>
+                  Enlarge
+                </button>
+              </div>
+            </div>
+            <div class="cert-content">
+              <h3>Claude with Google Vertex AI</h3>
+              <p class="cert-issuer">Anthropic</p>
+              <div class="cert-footer">
+                <span class="cert-date">May 3, 2026</span>
+                <a href="assets/certificates/claude_vertex.pdf" class="btn-cert-download"
+                  download="Claude_with_Google_Vertex_AI_Deepti_Metri.pdf" title="Download Certificate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: AI Fluency: Framework & Foundations -->
+          <article class="card cert-gallery-card">
+            <div class="cert-image-container">
+              <img src="assets/certificates/ai_fluency.jpg" alt="AI Fluency: Framework & Foundations" class="cert-image"
+                onerror="handleCertImageError(this, 'AI Fluency: Framework & Foundations', 'Anthropic')">
+              <div class="cert-overlay">
+                <button class="btn btn-cert-view"
+                  onclick="openLightbox('assets/certificates/ai_fluency.pdf', 'assets/certificates/ai_fluency.pdf', 'AI Fluency: Framework & Foundations', 'Anthropic', 'May 3, 2026')">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                    <circle cx="12" cy="12" r="3" />
+                  </svg>
+                  Enlarge
+                </button>
+              </div>
+            </div>
+            <div class="cert-content">
+              <h3>AI Fluency: Framework & Foundations</h3>
+              <p class="cert-issuer">Anthropic</p>
+              <div class="cert-footer">
+                <span class="cert-date">May 3, 2026</span>
+                <a href="assets/certificates/ai_fluency.pdf" class="btn-cert-download"
+                  download="AI_Fluency_Framework_and_Foundations_Deepti_Metri.pdf" title="Download Certificate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: IBM ICE Day -->
+          <article class="card cert-gallery-card">
+            <div class="cert-image-container">
+              <img src="assets/certificates/ibm_ice_day.jpg" alt="IBM ICE Day Poster Presentation" class="cert-image"
+                onerror="handleCertImageError(this, 'IBM ICE Day', 'IBM / Sharnbasva University')">
+              <div class="cert-overlay">
+                <button class="btn btn-cert-view"
+                  onclick="openLightbox('assets/certificates/ibm_ice_day.jpg', 'assets/certificates/ibm_ice_day.jpg', 'IBM ICE Day', 'IBM / Sharnbasva University', 'April 27, 2024')">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                    <circle cx="12" cy="12" r="3" />
+                  </svg>
+                  Enlarge
+                </button>
+              </div>
+            </div>
+            <div class="cert-content">
+              <h3>IBM ICE Day Poster Presentation</h3>
+              <p class="cert-issuer">IBM / Sharnbasva University</p>
+              <div class="cert-footer">
+                <span class="cert-date">April 27, 2024</span>
+                <a href="assets/certificates/ibm_ice_day.jpg" class="btn-cert-download"
+                  download="IBM_ICE_Day_Poster_Presentation_Deepti_Metri.jpg" title="Download Certificate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5: Hackathon Participation -->
+          <article class="card cert-gallery-card">
+            <div class="cert-image-container">
+              <img src="assets/certificates/hackathon.png" alt="Hackathon Participation" class="cert-image"
+                onerror="handleCertImageError(this, 'Hackathon Participation', 'Sharnbasva University')">
+              <div class="cert-overlay">
+                <button class="btn btn-cert-view"
+                  onclick="openLightbox('assets/certificates/hackathon.png', 'assets/certificates/hackathon.png', 'Hackathon Participation', 'Sharnbasva University', 'April 25, 2024')">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                    <circle cx="12" cy="12" r="3" />
+                  </svg>
+                  Enlarge
+                </button>
+              </div>
+            </div>
+            <div class="cert-content">
+              <h3>Hackathon Participation</h3>
+              <p class="cert-issuer">Sharnbasva University</p>
+              <div class="cert-footer">
+                <span class="cert-date">April 25, 2024</span>
+                <a href="assets/certificates/hackathon.png" class="btn-cert-download"
+                  download="Hackathon_Participation_Deepti_Metri.png" title="Download Certificate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Training Certificates Subsection -->
+        <div class="training-certificates-section fade-up">
+          <h3 class="training-cert-title">Training Completion Certificates</h3>
+          <div class="certificates-grid">
+            <!-- Training 1: KodNest -->
+            <article class="card cert-gallery-card">
+              <div class="cert-image-container">
+                <img src="assets/certificates/kodnest.jpg" alt="KodNest Java Full Stack Training" class="cert-image"
+                  onerror="handleCertImageError(this, 'KodNest – Java Full Stack Training', 'KodNest')">
+                <div class="cert-overlay">
+                  <button class="btn btn-cert-view"
+                    onclick="openLightbox('assets/certificates/kodnest.jpg', 'assets/certificates/kodnest.jpg', 'KodNest – Java Full Stack Training', 'KodNest', 'Feb 2026 – May 2026')">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                      <circle cx="12" cy="12" r="3" />
+                    </svg>
+                    Enlarge
+                  </button>
+                </div>
+              </div>
+              <div class="cert-content">
+                <h3>Java Full Stack Training</h3>
+                <p class="cert-issuer">KodNest</p>
+                <div class="cert-footer">
+                  <span class="cert-date">Feb 2026 – May 2026</span>
+                  <a href="assets/certificates/kodnest.jpg" class="btn-cert-download"
+                    download="KodNest_Java_Full_Stack_Training_Deepti_Metri.jpg" title="Download Certificate">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                      <polyline points="7 10 12 15 17 10" />
+                      <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Training 2: ICT Academy -->
+            <article class="card cert-gallery-card">
+              <div class="cert-image-container">
+                <img src="assets/certificates/ict_academy.jpg" alt="ICT Academy UI/UX & Front-End Development"
+                  class="cert-image"
+                  onerror="handleCertImageError(this, 'ICT Academy with Infosys – UI/UX & Front-End Development', 'ICT Academy')">
+                <div class="cert-overlay">
+                  <button class="btn btn-cert-view"
+                    onclick="openLightbox('assets/certificates/ict_academy.jpg', 'assets/certificates/ict_academy.jpg', 'UI/UX & Front-End Development', 'ICT Academy with Infosys', 'Aug 2025 – Sept 2025')">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                      <circle cx="12" cy="12" r="3" />
+                    </svg>
+                    Enlarge
+                  </button>
+                </div>
+              </div>
+              <div class="cert-content">
+                <h3>UI/UX & Front-End Development</h3>
+                <p class="cert-issuer">ICT Academy with Infosys</p>
+                <div class="cert-footer">
+                  <span class="cert-date">Aug 2025 – Sept 2025</span>
+                  <a href="assets/certificates/ict_academy.jpg" class="btn-cert-download"
+                    download="ICT_Academy_Infosys_FrontEnd_Training_Deepti_Metri.jpg" title="Download Certificate">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                      <polyline points="7 10 12 15 17 10" />
+                      <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Training 3: Solar Bee -->
+            <article class="card cert-gallery-card">
+              <div class="cert-image-container">
+                <img src="assets/certificates/solar_bee.jpg" alt="Solar Bee Web Development Internship"
+                  class="cert-image"
+                  onerror="handleCertImageError(this, 'Solar Bee – Web Development Internship', 'Solar Bee')">
+                <div class="cert-overlay">
+                  <button class="btn btn-cert-view"
+                    onclick="openLightbox('assets/certificates/solar_bee.jpg', 'assets/certificates/solar_bee.jpg', 'Web Development Internship', 'Solar Bee', 'Jun 2026 – Present')">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                      <circle cx="12" cy="12" r="3" />
+                    </svg>
+                    Enlarge
+                  </button>
+                </div>
+              </div>
+              <div class="cert-content">
+                <h3>Web Development Internship</h3>
+                <p class="cert-issuer">Solar Bee</p>
+                <div class="cert-footer">
+                  <span class="cert-date">Jun 2026 – Present</span>
+                  <a href="assets/certificates/solar_bee.jpg" class="btn-cert-download"
+                    download="Solar_Bee_Web_Development_Internship_Deepti_Metri.jpg" title="Download Certificate">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                      <polyline points="7 10 12 15 17 10" />
+                      <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-desc">Interested in collaborating or have an opportunity? I'd love to hear from you.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info fade-up">
+            <div class="card contact-card">
+              <div class="contact-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+                <div>
+                  <span>Phone</span>
+                  <a href="tel:+918762400461">+91 87624 00461</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <div>
+                  <span>Location</span>
+                  <p>Bengaluru, India</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+                <div>
+                  <span>Email</span>
+                  <a href="mailto:deeptimetri6@gmail.com">deeptimetri6@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="card contact-form fade-up delay-1" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@email.com">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required placeholder="Project inquiry">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required
+                placeholder="Tell me about your project or opportunity..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Deepti M. All rights reserved.</p>
+      <p class="footer-tagline">Built with passion for AI &amp; innovation</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="certLightbox" class="lightbox" aria-hidden="true" role="dialog">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close preview">&times;</button>
+    <div class="lightbox-content">
+      <div class="lightbox-header">
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxIssuer"></p>
+      </div>
+      <div class="lightbox-body">
+        <div class="lightbox-media-wrapper" id="lightboxMediaWrapper">
+          <!-- Dynamically populated img or iframe -->
+        </div>
+      </div>
+      <div class="lightbox-actions">
+        <button class="btn btn-zoom-out" id="zoomOutBtn" aria-label="Zoom out" disabled>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12" />
+          </svg>
+        </button>
+        <span class="zoom-level" id="zoomLevel">100%</span>
+        <button class="btn btn-zoom-in" id="zoomInBtn" aria-label="Zoom in" disabled>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19" />
+            <line x1="5" y1="12" x2="19" y2="12" />
+          </svg>
+        </button>
+        <a href="#" class="btn btn-primary btn-lightbox-download" id="lightboxDownload" download>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          Download Certificate
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js" defer></script>
+</body>
+
+</html>
